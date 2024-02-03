@@ -1,4 +1,4 @@
-package com.example.shopify.ui.theme.pages.profile
+package com.example.shopify.ui.theme.pages.register
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
@@ -7,16 +7,15 @@ import androidx.navigation.compose.rememberNavController
 import com.example.shopify.ui.theme.ShopifyTheme
 
 @Composable
-fun ProfileScreen(navHostController: NavHostController) {
+fun RegisterScreen(navHostController: NavHostController) {
 
 }
 
 
 @Preview
 @Composable
-fun ProfileScreenPreview() {
+fun RegisterScreenPreview() {
     ShopifyTheme {
-        ProfileScreen(rememberNavController())
+        RegisterScreen(rememberNavController())
     }
-
 }
